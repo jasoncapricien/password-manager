@@ -1,14 +1,18 @@
 # Password Manager
 
-A simple, beginner-friendly password manager built using Python.  
-This project stores, retrieves, and manages user passwords securely in a local file.
+This project is a command-line application built in Python that allows users to:
+- Create new accounts with a username and password
+- Log in using existing credentials
+- Cancel account creation or login at any time
+- Validate inputs and handle errors gracefully
+
 
 ## Features
-- Add new account credentials
-- Retrieve saved passwords
-- Update existing passwords
-- Local storage
-- Simple interactive menu for ease of use
+- **User Authentication**: Basic login and account creation workflow
+- **File Handling**: Credentials stored in `users.txt` for persistence
+- **Error Handling**: Input validation with `try/except` blocks
+- **Modular Functions**: Helper functions (`userExists`, `getUserCredentials`) for clean, reusable code
+
 
 ## Technologies Used
 - **Python 3**
