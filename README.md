@@ -13,7 +13,6 @@ This project stores, retrieves, and manages user passwords securely in a local f
 ## Technologies Used
 - **Python 3**
 - **File handling** for storing passwords
-- **(Optional)** Encryption using libraries such as `cryptography` or custom hashing
 
 
 ## Future Improvements
