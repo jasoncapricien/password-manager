@@ -1,4 +1,5 @@
-# Password Manager
+# Login System
+
 
 This project is a command-line application built in Python that allows users to:
 - Create new accounts with a username and password
